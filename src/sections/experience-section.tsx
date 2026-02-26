@@ -4,7 +4,7 @@ export default function ExperienceSection() {
     const experience = [
         {
             image: "/assets/google.svg",
-            title: "Senior Software Engineer",
+            title: "Senior Lead Engineer",
             company: "Cyberbacker",
             location: "US",
             start: "July 2021",
@@ -96,7 +96,7 @@ export default function ExperienceSection() {
                                     <h3 className="text-base font-medium text-gray-800">
                                         {experience.title}
                                     </h3>
-                                    <div>{experience.company}</div>
+                                    <div>{experience.company} | {experience.location}</div>
                                 </div>
                             </div>
                             <div>{experience.start} - {experience.end}</div>

@@ -5,7 +5,7 @@ export default function ProjectsSection() {
         {
             title: "Internal CRM",
             description: "Cyberbacker - CRM designed to automate the connectivity of the workflow between departments.",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/cb-crm.jpg",
             framework: "Laravel, React, DaisyUI",
             href: "#",
         },
@@ -26,14 +26,14 @@ export default function ProjectsSection() {
         {
             title: "Internal CRM",
             description: "Avocado Hive - CRM designed to manage client-agent tasks, accounting and personel",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/avocado.png",
             framework: "ReactJS, ExpressJS, PostgreSQL, Stripe",
             href: "#",
         },
         {
             title: "Marketing Site",
             description: "Avocado Hive - A Philippine-based Virtual Legal Assistant services catering to boutique law firms in the US and Australia.",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/avocado.png",
             framework: "Wordpress, Javascript",
             href: "#",
         },
@@ -54,7 +54,7 @@ export default function ProjectsSection() {
         {
             title: "Social Media Platform",
             description: "Lydus Inc. - Social media and stock trading journaling software.",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/lyduz.png",
             framework: "Laravel, VueJS, React Native, Microservice",
             href: "#",
         },
@@ -89,21 +89,21 @@ export default function ProjectsSection() {
         {
             title: "Marketing Site",
             description: "Greenway Surgery Center - offer quality care, specialized equipment, and advanced technology in a safe, family-friendly environment.",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/greenway.png",
             framework: "Wordpress, Custom Theme, Custom Plugin",
-            href: "#",
+            href: "https://greenwaysurgerycenter.com",
         },
         {
             title: "Marketing Site",
             description: "All Flex Inc. - All Flex Solutions is a leading provider of specialty flex products.",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/allflex.png",
             framework: "Wordpress, Custom Theme, Custom Plugin",
             href: "https://www.allflexinc.com",
         },
         {
             title: "Marketing Site",
             description: "Anesthesiology - VCU - Virginia Commonwealth University Anesthesiology Department",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/vcu.png",
             href: "https://anesthesiology.vcu.edu",
             framework: "Wordpress, Custom Theme, Custom Plugin",
         },
@@ -117,30 +117,37 @@ export default function ProjectsSection() {
         {
             title: "Marketing Site",
             description: "American Freight Service - A marketing site for the American Freight Service Team",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/afsaudit.png",
             href: "http://www.afsaudit.com",
             framework: "Wordpress, Custom Theme, Custom Plugin",
         },
         {
             title: "Marketing Site",
             description: "R. O. Harrell inc. - Tanker truck carriers, liquid & dry bulk hauling",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/roharrell.png",
             href: "https://www.roharrell.com",
             framework: "Wordpress, Custom Theme, Custom Plugin",
         },
         {
             title: "Marketing Site",
             description: "Borderline Personality Disorder Demystified - An innovative description of the changing emphasis of medications and psychotherapy in the treatment of BPD from the Beginning to Recovery.",
-            image: "/assets/no-preview.jpg",
+            image: "/assets/projects/bpddemystified.png",
             framework: "Wordpress, Custom Theme, Custom Plugin",
             href: "https://bpddemystified.com"
+        },
+        {
+            title: "Ecommerce Site",
+            description: "Philux - is a furniture manufacturer from the Philippines.",
+            image: "/assets/projects/philux.png",
+            framework: "Wordpress, Custom Theme, Custom Plugin, Ecommerce",
+            href: "https://philux.ph/"
         }
     ];
 
     return (
         <Section title="Projects">
             <div className="space-y-6">
-                <div className="flex flex-wrap justify-center items-center gap-4 ml-15">
+                <div className="flex flex-wrap justify-center items-top gap-4 ml-15">
                     {projects.map((project) => (
                         <div key={project.title} className="hover:-translate-y-0.5 transition duration-300 max-w-85 border border-gray-200 rounded-xl">
                             <img
