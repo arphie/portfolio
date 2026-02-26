@@ -1,5 +1,3 @@
-import { ArrowRightIcon } from "lucide-react";
-
 export default function HeroSection() {
     return (
         <main className="flex flex-col items-center pt-32 max-md:px-4">
