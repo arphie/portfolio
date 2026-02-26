@@ -15,7 +15,7 @@ function ExperienceItem(props) {
                         {props.description.map(function (paragraph, index) {
                             return (
                                 <li key={index} className="mb-2 ml-6">
-                                    <div dangerouslySetInnerHTML={{ __html: paragraph }} />
+                                    <div dangerouslySetInnerHTML={{ __html: paragraph }}></div>
                                 </li>
                             );
                         })}

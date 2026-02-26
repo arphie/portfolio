@@ -141,25 +141,131 @@
   ],
   "projects": [
     {
-      "name": "two-column-portfolio",
-      "framework": "next.js",
-      "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
-      "href": "https://github.com/karlgrossmann/two-column-portfolio",
-      "stars": "27"
+      "name": "Internal CRM",
+      "framework": "Laravel, React, DaisyUI",
+      "description": "Cyberbacker - CRM designed to automate the connectivity of the workflow between departments.",
+      "href": "",
+      "stars": "9/10"
     },
     {
-      "name": "example-project",
-      "framework": "javascript",
-      "description": "Short description of your project.",
-      "href": "",
-      "stars": "2,712"
+      "name": "Application Tracking System",
+      "framework": "Laravel, React",
+      "description": "Cyberbacker - An application form designed to follow the company process and placement algorithm. ",
+      "href": "#",
+      "stars": "9/10"
     },
     {
-      "name": "example-project-2",
-      "framework": "flutter",
-      "description": "Short description of your project.",
-      "href": "",
-      "stars": "1,999"
+      "name": "Internal CRM",
+      "framework": "ReactJS, ExpressJS, PostgreSQL, Stripe",
+      "description": "Avocado Hive - CRM designed to manage client-agent tasks, accounting and personel",
+      "href": "#",
+      "stars": "9/10"
+    },
+     {
+      "name": "Marketing Site",
+      "framework": "Wordpress, Javascript",
+      "description": "Avocado Hive - A Philippine-based Virtual Legal Assistant services catering to boutique law firms in the US and Australia.",
+      "href": "#",
+      "stars": "9/10"
+    },
+     {
+      "name": "Campaign Management System",
+      "framework": "Laravel, Bootstrap, Javascript, Restful API",
+      "description": "The AdBar allows you to automatically create and execute a customized media plan across 100s of media channels. asd",
+      "href": "#",
+      "stars": "9/10"
+    },
+     {
+      "name": "Contract Management System",
+      "framework": "Laravel, Bootstrap, Javascript",
+      "description": "Swayfile - Create, manage and sign contract in one platform.",
+      "href": "#",
+      "stars": "9/10"
+    },
+    {
+      "name": "Social Media Platform",
+      "framework": "Laravel, VueJS, React Native, Microservice",
+      "description": "Lydus Inc. - Social media and stock trading journaling software.",
+      "href": "#",
+      "stars": "9/10"
+    },
+     {
+      "name": "Social media platform",
+      "framework": "Laravel, VueJS, React native",
+      "description": "Vici - designed to target business individuals with a specific hobby. ",
+      "href": "#",
+      "stars": "9/10"
+    },
+    {
+      "name": "Campaign Management System",
+      "framework": "Laravel, Javascript",
+      "description": "Boost - Allow campaign automation across social media ",
+      "href": "#",
+      "stars": "9/10"
+    },
+    {
+      "name": "Product CRM",
+      "framework": "PERL, Bootstrap, Javascript, Laravel",
+      "description": "NAXUM - CRM to create and manage branded crm for businesses",
+      "href": "#",
+      "stars": "9/10"
+    },
+    {
+      "name": "Product Cataloge",
+      "framework": "Wordpress, Ecommerce, Laravel",
+      "description": "Brickworks building products - A brick catalogs and e-commerce site. ",
+      "href": "#",
+      "stars": "9/10"
+    },
+    {
+      "name": "Marketing Site",
+      "framework": "Wordpress, Custom Theme, Custom Plugin",
+      "description": "Greenway Surgery Center - offer quality care, specialized equipment, and advanced technology in a safe, family-friendly environment.",
+      "href": "#",
+      "stars": "9/10"
+    },
+    {
+      "name": "Marketing Site",
+      "framework": "Wordpress, Custom Theme, Custom Plugin",
+      "description": "All Flex Inc. - All Flex Solutions is a leading provider of specialty flex products.",
+      "href": "https://www.allflexinc.com",
+      "stars": "9/10"
+    },
+    {
+      "name": "Marketing Site",
+      "framework": "Wordpress, Custom Theme, Custom Plugin",
+      "description": "Anesthesiology - VCU - Virginia Commonwealth University Anesthesiology Department",
+      "href": "https://anesthesiology.vcu.edu",
+      "stars": "9/10"
+    },
+    {
+      "name": "Event Management System",
+      "framework": "Wordpress, Custom Theme, Custom Plugin, Stripe",
+      "description": "MyPleases - Philippine League of Secretaries to the Sanggunian - an event management and reservation system",
+      "href": "#",
+      "stars": "9/10"
+    },
+    {
+      "name": "Marketing Site",
+      "framework": "Wordpress, Custom Theme, Custom Plugin",
+      "description": "American Freight Service - A marketing site for the American Freight Service Team",
+      "href": "http://www.afsaudit.com",
+      "stars": "9/10"
+    },
+    {
+      "name": "Marketing Site",
+      "framework": "Wordpress, Custom Theme, Custom Plugin",
+      "description": "R. O. Harrell inc. - Tanker truck carriers, liquid & dry bulk hauling",
+      "href": "https://www.roharrell.com",
+      "stars": "9/10"
+    },
+    {
+      "name": "Marketing Site",
+      "framework": "Wordpress, Custom Theme, Custom Plugin",
+      "description": "Borderline Personality Disorder Demystified - An innovative description of the changing emphasis of medications and psychotherapy in the treatment of BPD from the Beginning to Recovery.",
+      "href": "https://bpddemystified.com",
+      "stars": "9/10"
     }
+     
   ]
 }
