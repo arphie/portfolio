@@ -13,6 +13,7 @@ const Experiences = (props) => {
             key={`${object.title}+${object.company}+${object.startDate}+${index}`}
             title={object.title}
             company={object.company}
+            location={object.location}
             href={object.href}
             startDate={object.startDate}
             endDate={object.endDate}
